@@ -15,7 +15,7 @@ function CreateVA(e) {
   var name = values[3];
   var description = values[4];
   var expiration_date = values[5];
-  var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+  var apiKey = '';
   var Basic = Utilities.base64Encode(apiKey + ':0');
   var header = {
    "Authorization" : "Basic " + Basic
@@ -163,7 +163,7 @@ function UpdateVA(e) {
   var Permata = values[8];
   var description = values[22];
   var expiration_date = values[23];
-  var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+  var apiKey = '';
   var Basic = Utilities.base64Encode(apiKey + ':0');
   var header = {
    "Authorization" : "Basic " + Basic
@@ -237,7 +237,7 @@ function SendInvoiceSecondary() {
       var description = sheet.getRange(i, 23).getValue();
       var expiration_date = sheet.getRange(i, 24).getValue();
       var information = sheet.getRange(i, 27).getValue();
-      var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+      var apiKey = '';
       var Basic = Utilities.base64Encode(apiKey + ':0');
       var header = {
         "Authorization" : "Basic " + Basic
@@ -339,7 +339,7 @@ function SendInvoiceSecondary() {
       var description = sheet.getRange(i, 23).getValue();
       var expiration_date = sheet.getRange(i, 24).getValue();
       var information = sheet.getRange(i, 27).getValue();
-      var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+      var apiKey = '';
       var Basic = Utilities.base64Encode(apiKey + ':0');
       var header = {
         "Authorization" : "Basic " + Basic
@@ -526,7 +526,7 @@ function SendInvoiceSecondary() {
       var description = sheet.getRange(i, 23).getValue();
       var expiration_date = sheet.getRange(i, 24).getValue();
       var information = sheet.getRange(i, 27).getValue();
-      var apiKey = 'xnd_production_e3nYyzyZtJCrnoowK6BsvwL0dzbklIHO9r20qEfXafB12IFj9JQHcEtaVqES';
+      var apiKey = '';
       var Basic = Utilities.base64Encode(apiKey + ':0');
       var header = {
         "Authorization" : "Basic " + Basic
